@@ -1,14 +1,23 @@
 body {
-    background-color: blueviolet;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(138, 208, 240, 0.5);
+    font-family: 'Labrada', serif;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.main-wrapper{
+    max-width: 800px;
+    margin: 50px auto;
 }
 
 .wrapper{
-    background: url("images/rainy.gif");
-    max-width: 800px;
-    border: 1px black;
+    background-image: url("images/snow.gif");
+    background-size: cover;
+    
+    background-color: rgb(5, 157, 245);
+    padding: 20px;
+    border: 3px black;
     border-style:inset;
-    margin: 50px auto;
+    border-radius: 20px;
 }
 
 .row{
@@ -21,24 +30,36 @@ body {
 
 .dateTime{
     font-size: 14px;
+    margin-bottom: 0;
 }
 
 .weatherText {
     font-size: 24px;
+    margin-bottom: 0;
 }
 
 .cityName {
     font-weight: bold;
     font-size: 36px;
+    margin-bottom: 0;
 }
 
 .temperature{
-    font-size: 90px;
+    font-size: 120px;
+}
+
+.units{
+    position: relative;
+    top: -76px;
+    left: -48px;
+    font-size: 24px;
+    font-weight: bold;
+    
 }
 
 ul{
-    margin-top: 350px;
-    text-align: left;
+    margin-top: 250px;
+    float: left;
 }
 
 li{
@@ -47,4 +68,6 @@ li{
 
 a {
     text-decoration: none;
+    color: rgb(5, 157, 245);
+    font-weight: bold;
 }
