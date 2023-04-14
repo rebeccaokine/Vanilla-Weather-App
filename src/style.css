@@ -1,0 +1,50 @@
+body {
+    background-color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper{
+    background-image: url("images/Night.gif");
+    max-width: 800px;
+    border: 1px black;
+    border-style:inset;
+    margin: 50px auto;
+}
+
+.row{
+    margin: 10px;
+}
+
+#left-column{
+    margin-top: 200px;
+}
+
+.dateTime{
+    font-size: 14px;
+}
+
+.weatherText {
+    font-size: 24px;
+}
+
+.cityName {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.temperature{
+    font-size: 90px;
+}
+
+ul{
+    margin-top: 350px;
+    text-align: left;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
