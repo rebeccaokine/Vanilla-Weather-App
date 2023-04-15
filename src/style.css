@@ -44,9 +44,13 @@ form {
   margin: 10px;
 }
 
+.upperText{
+    margin-left: 70px;
+}
+
 #left-column {
   margin-top: 200px;
-  margin-left: 50px;
+  margin-left: 30px;
   text-transform: capitalize;
 }
 
@@ -71,10 +75,15 @@ form {
   font-size: 120px;
 }
 
+.temperatureUnit img {
+  float: left;
+  margin-right: 2px;
+}
+
 .units {
   position: relative;
   top: -138px;
-  left: 150px;
+  left: 250px;
   font-size: 24px;
   font-weight: bold;
 }
