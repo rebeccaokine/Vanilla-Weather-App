@@ -10,12 +10,12 @@ body {
 }
 
 .wrapper{  
-    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/077/162/original/rain.gif?1681525568");
+    /**background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/077/162/original/rain.gif?1681525568");**/
     background-size: cover;
     background-color: rgb(5, 157, 245);
     color: aliceblue;
     padding: 20px;
-    border: 3px black;
+    border: 3px white;
     border-style:inset;
     border-radius: 20px;
 }
@@ -47,6 +47,7 @@ form {
 
 #left-column{
     margin-top: 200px;
+    margin-left: 50px;
     text-transform: capitalize;
 }
 
@@ -83,10 +84,13 @@ form {
 ul{
     margin-top: 250px;
     font-weight: bolder;
+    margin-left: 0;
 }
 
 li{
     list-style: none;
+    padding:0;
+    margin: 0;
 }
 
 a {
