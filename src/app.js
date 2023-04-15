@@ -59,7 +59,9 @@ function displayTemperature(response) {
   let windElement = document.querySelector("#wind");
   let dateElement = document.querySelector("#dateTime");
 
-  temperatureElement.innerHTML = Math.round(response.data.main.temp);
+  celsiusTemperature = response.data.main.temp;
+
+  temperatureElement.innerHTML = Math.round(celsiusTemperature);
   cityElement.innerHTML = response.data.name;
   descriptionElement.innerHTML = response.data.weather[0].description;
   humidityElement.innerHTML = response.data.main.humidity;
@@ -81,7 +83,35 @@ function handleSubmit(event) {
   search(cityInputElement.value);
 }
 
-search("Accra");
+function displayFahrenheitTemperature(event){
+    event.preventDefault();
+    let temperatureElement = document.querySelector("#temperature");
+    //changing status of the active link
+    celsiusLink.classList.remove("active");
+    fahrenheitLink.classList.add("active");
+
+    let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
+    temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
+}
+
+function displayCelsiusTemperature(event){
+    event.preventDefault();
+    let temperatureElement = document.querySelector("#temperature");
+    //changing the status of the active link
+    celsiusLink.classList.add("active");
+    fahrenheitLink.classList.remove("active");
+    temperatureElement.innerHTML= Math.round(celsiusTemperature);
+}
+
+let celsiusTemperature = null;
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
+
+let fahrenheitLink = document.querySelector("#fahrenheit-link");
+fahrenheitLink.addEventListener("click",displayFahrenheitTemperature);
+
+let celsiusLink = document.querySelector("#celsius-link");
+celsiusLink.addEventListener("click", displayCelsiusTemperature);
+
+search("Accra");

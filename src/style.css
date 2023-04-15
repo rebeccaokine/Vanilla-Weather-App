@@ -1,38 +1,38 @@
 body {
-    background-color: rgba(138, 208, 240, 0.5);
-    font-family: 'Labrada', serif;
-    font-family: 'Libre Baskerville', serif;
+  background-color: rgba(138, 208, 240, 0.5);
+  font-family: "Labrada", serif;
+  font-family: "Libre Baskerville", serif;
 }
 
-.main-wrapper{
-    max-width: 800px;
-    margin: 50px auto;
+.main-wrapper {
+  max-width: 800px;
+  margin: 50px auto;
 }
 
-.wrapper{  
-    /**background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/077/162/original/rain.gif?1681525568");**/
-    background-size: cover;
-    background-color: rgb(5, 157, 245);
-    color: aliceblue;
-    padding: 20px;
-    border: 3px white;
-    border-style:inset;
-    border-radius: 20px;
+.wrapper {
+  /**background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/077/162/original/rain.gif?1681525568");**/
+  background-size: cover;
+  background-color: rgb(5, 157, 245);
+  color: aliceblue;
+  padding: 20px;
+  border: 3px white;
+  border-style: inset;
+  border-radius: 20px;
 }
 
 #search-form input[type="search"] {
-    color: white;
+  color: white;
 }
 
 form {
-    max-width: 400px;
-    margin: 0 auto;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .form-control::placeholder {
-    font-size: 0.95rem;
-    color: #fff;
-    font-style: italic;
+  font-size: 0.95rem;
+  color: #fff;
+  font-style: italic;
 }
 
 .btn {
@@ -40,61 +40,68 @@ form {
   color: #fff;
 }
 
-
-.row{
-    margin: 10px;
+.row {
+  margin: 10px;
 }
 
-#left-column{
-    margin-top: 200px;
-    margin-left: 50px;
-    text-transform: capitalize;
+#left-column {
+  margin-top: 200px;
+  margin-left: 50px;
+  text-transform: capitalize;
 }
 
-.dateTime{
-    font-size: 14px;
-    font-weight: 800px;
-    margin-bottom: 0;
+.dateTime {
+  font-size: 14px;
+  font-weight: 800px;
+  margin-bottom: 0;
 }
 
 .weatherText {
-    font-size: 24px;
-    margin-bottom: 0;
+  font-size: 24px;
+  margin-bottom: 0;
 }
 
 .cityName {
-    font-weight: bold;
-    font-size: 36px;
-    margin-bottom: 0;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 0;
 }
 
-.temperature{
-    font-size: 120px;
+.temperature {
+  font-size: 120px;
 }
 
-.units{
-    position: relative;
-    top: -138px;
-    left: 138px;
-    font-size: 24px;
-    font-weight: bold;
-    
+.units {
+  position: relative;
+  top: -138px;
+  left: 150px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-ul{
-    margin-top: 250px;
-    font-weight: bolder;
-    margin-left: 0;
+ul {
+  margin-top: 250px;
+  font-weight: bolder;
+  margin-left: 0;
 }
 
-li{
-    list-style: none;
-    padding:0;
-    margin: 0;
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.temperatureUnit .units{
+  position: relative;
+}
+
+.temperatureUnit .active {
+  color: #fff;
 }
 
 a {
-    text-decoration: none;
-    color: rgb(5, 157, 245);
-    font-weight: bold;
+  text-decoration: none;
+  color: rgb(5, 157, 245);
+  font-weight: bold;
 }
+
