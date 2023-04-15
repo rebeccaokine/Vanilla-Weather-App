@@ -9,10 +9,7 @@ body {
     margin: 50px auto;
 }
 
-.wrapper{
-    background-image: url("images/snow.gif");
-    background-size: cover;
-    
+.wrapper{   
     background-color: rgb(5, 157, 245);
     padding: 20px;
     border: 3px black;
@@ -26,6 +23,7 @@ body {
 
 #left-column{
     margin-top: 200px;
+    text-transform: capitalize;
 }
 
 .dateTime{
@@ -50,8 +48,8 @@ body {
 
 .units{
     position: relative;
-    top: -76px;
-    left: -48px;
+    top: -138px;
+    left: 138px;
     font-size: 24px;
     font-weight: bold;
     
