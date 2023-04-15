@@ -23,22 +23,36 @@
     <div class="container">
       <div class="main-wrapper">
         <div class="wrapper">
+          <form id="search-form">
+            <div class="input-group">
+              <input
+                type="search"
+                class="form-control"
+                placeholder="Enter a city..."
+                aria-label="Search"
+                aria-describedby="search-addon"
+                style="background-color: transparent"
+              />
+              <button type="button" class="btn btn-outline-primary">
+                search
+              </button>
+            </div>
+          </form>
+
           <div class="row">
             <div class="col" id="left-column">
               <h5 class="dateTime" id="dateTime">Friday 12:00</h5>
               <h2 class="weatherText" id="description">Mostly Sunny</h2>
               <h1 class="cityName" id="city">New York</h1>
               <div class="temperatureUnit">
-                <h1 class="temperature" id="temperature">
-                  31 
-                </h1>
-                <span class="units" >℃ | ℉</span>
+                <h1 class="temperature" id="temperature">31</h1>
+                <span class="units">℃ | ℉</span>
               </div>
             </div>
 
             <div class="col">
               <ul>
-                <li>Humidity: <span id ="humidity"></span>%</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
                 <li>Wind: <span id="wind"></span>km/h</li>
               </ul>
             </div>
