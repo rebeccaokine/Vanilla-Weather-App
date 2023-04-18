@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(138, 208, 240, 0.5);
+  background-color: rgba(182, 138, 240, 0.5);
   font-family: "Labrada", serif;
   font-family: "Libre Baskerville", serif;
 }
@@ -17,6 +17,7 @@ body {
   border: 3px white;
   border-style: inset;
   border-radius: 20px;
+  box-shadow: 0px 5px 15px rgba(65, 94, 117, 0.25);
 }
 
 #search-form input[type="search"] {
@@ -109,7 +110,7 @@ li {
 
 a {
   text-decoration: none;
-  color: rgb(5, 157, 245);
+  color: rgb(157, 5, 245);
   font-weight: bold;
 }
 
