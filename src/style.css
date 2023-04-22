@@ -44,8 +44,8 @@ form {
   margin: 10px;
 }
 
-.upperText{
-    margin-left: 70px;
+.upperText {
+  margin-left: 70px;
 }
 
 #left-column {
@@ -100,7 +100,7 @@ li {
   margin: 0;
 }
 
-.temperatureUnit .units{
+.temperatureUnit .units {
   position: relative;
 }
 
@@ -114,7 +114,7 @@ a {
   font-weight: bold;
 }
 
-.weather-temperature .active:hover{
+.weather-temperature .active:hover {
   text-decoration: none;
 }
 
@@ -130,7 +130,7 @@ a {
   opacity: 0.5;
 }
 
-.weather-forecast-temp-min{
+.weather-forecast-temp-min {
   opacity: 0.4;
 }
 
@@ -139,4 +139,3 @@ a {
   font-size: 12px;
   font-weight: 900;
 }
-
