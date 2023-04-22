@@ -74,7 +74,7 @@ function displayForecast(response) {
               <div class="col-2" >
                 <div class="weather-forecast-date">${formatDay(forecastDay.time)}</div>
                 <img
-                  src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png"
+                  src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${forecastDay.condition.icon}.png"
                   alt="weather icon"
                   width="50px"
                 />

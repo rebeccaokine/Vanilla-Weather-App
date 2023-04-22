@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(182, 138, 240, 0.5);
+  background-color: rgba(5, 174, 252, 0.247);
   font-family: "Labrada", serif;
   font-family: "Libre Baskerville", serif;
 }
@@ -11,7 +11,7 @@ body {
 
 .wrapper {
   background-size: cover;
-  background-color: rgb(160, 108, 255);
+  background-color: rgb(1, 41, 97);
   color: white;
   padding: 20px;
   border: 3px white;
@@ -110,7 +110,7 @@ li {
 
 a {
   text-decoration: none;
-  color: rgb(157, 5, 245);
+  color: rgb(5, 173, 252);
   font-weight: bold;
 }
 
@@ -124,7 +124,9 @@ a {
 }
 
 .weather-forecast-date {
+  color: rgb(5, 173, 252);
   font-size: 16px;
+  font-weight: 900;
   opacity: 0.5;
 }
 
@@ -133,6 +135,8 @@ a {
 }
 
 .weather-forecast-temperature {
+  color: rgb(5, 173, 252);
   font-size: 12px;
+  font-weight: 900;
 }
 
